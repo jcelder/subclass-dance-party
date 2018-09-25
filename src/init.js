@@ -32,7 +32,7 @@ $(document).ready(function() {
   });
 
   $('.lineUpButton').on('click', function() {
-    lineUpHandler()
+    lineUpHandler();
   });
 });
 
