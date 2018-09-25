@@ -1,5 +1,6 @@
 var RollingDancer = function(top, left, timeBetweenSteps) {
-  Dancer.call(this, top, left, timeBetweenSteps);
+  var character = 'rick';
+  Dancer.call(this, top, left, character, timeBetweenSteps);
   this.styles = {
     animation: 'rotate-scale-up 1s linear infinite alternate both',
     '-webkit-animation': 'rotate-scale-up 1s linear infinite alternate both'

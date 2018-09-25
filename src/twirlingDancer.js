@@ -1,5 +1,6 @@
 var TwirlingDancer = function(top, left, timeBetweenSteps) {
-  Dancer.call(this, top, left, timeBetweenSteps);
+  var character = 'carlton';
+  Dancer.call(this, top, left, character, timeBetweenSteps);
   this.styles = {
     animation: 'rotate-scale-up-ver 1s linear infinite alternate both',
     '-webkit-animation': 'rotate-scale-up-ver 1s linear infinite alternate both'
