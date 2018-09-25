@@ -24,25 +24,47 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
   position:absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dancer__blinky{
+  height: 75px;
+  width: 50px;
 }
 
 .dancer__rolling{
-  border:1px solid white;
   border-radius: 0px;
-  height: 15px;
-  width: 15px;
-  background-color: green;
+  height: 75px;
+  width: 50px;
 }
 
 .dancer__twirling{
-  border:1px solid white;
-  border-radius: 0px;
-  height: 15px;
-  width: 15px;
-  background-color: blue;
+  height: 75px;
+  width: 50px;
+}
+
+.dancer__bad{
+  height: 75px;
+  width: 50px;
+}
+
+.rick {
+  background-image: url('src/assets/rickandmorty.gif');
+}
+
+.stan {
+  background-image: url('src/assets/stan.gif');
+}
+
+.carlton {
+  background-image: url('src/assets/thecarlton.gif');
+}
+
+.hula {
+  background-image: url('src/assets/hula.gif');
 }
 
 /**
